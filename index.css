@@ -43,4 +43,5 @@ h2{
 /*modifica o paragrafo*/
 p {
     margin: 5px 0; /*cria espaco em cima e embaixo, 0 nas laterais*/
+    text-align: justify; /*texto justificado*/
 }
