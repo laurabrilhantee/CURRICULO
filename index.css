@@ -12,15 +12,32 @@ h1 {
     text-align: center; /* Alinha texto no centro */
     background: pink; /* Cor no fundo, sem ser  da letra*/
 }
-.rosa {
-    background-color: pink; /* Fundo rosa */
-    color: black;           /* Texto preto */
-}
 /*modifica os titulos dos paragrafos*/
 h2{
     border-bottom: 2px solid black; /*cria linha em baixo do titulo*/
-    padding-bottom: 5px; /*cria espaco entre texto e a linha*/
+    padding-bottom: 8px; /*cria espaco entre texto e a linha*/
     margin-top: 30px; /*cria espaco a cima do titulo*/
+    margin-bottom: 20px; /* Espaço entre formações */
+}
+.formacao {
+    display: flex; /* Coloca lado a lado */
+    align-items: flex-start; /*alinha pelo topo*/
+    margin-bottom: 20px; /* Espaço entre formações */
+}
+
+.ano {
+    width: 50px; /* Largura fixa para alinhar */
+    min-width: 20px; /*alinhamento fixo*/
+    font-weight: bold; /* Ano em negrito */
+    margin-top: 6px; /*muda a altura*/
+}
+
+.info strong {
+    display: block; /* Curso em cima */
+}
+
+.info p {
+    margin: 0; /* Remove espaço extra */
 }
 /*modifica o paragrafo*/
 p {
