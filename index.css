@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin: 40px; /*cria espaço externo em volta da pagina*/
+}
+/*modifica o titulo principal*/
+h1 {
+    text-align: center; /* Alinha texto no centro */
+    background: pink; /* Cor no fundo, sem ser  da letra*/
+}
+.rosa {
+    background-color: pink; /* Fundo rosa */
+    color: black;           /* Texto preto */
+}
+/*modifica os titulos dos paragrafos*/
+h2{
+    border-bottom: 2px solid black; /*cria linha em baixo do titulo*/
+    padding-bottom: 5px; /*cria espaco entre texto e a linha*/
+    margin-top: 30px; /*cria espaco a cima do titulo*/
+}
+/*modifica o paragrafo*/
+p {
+    margin: 5px 0; /*cria espaco em cima e embaixo, 0 nas laterais*/
+}
