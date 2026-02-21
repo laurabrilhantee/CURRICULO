@@ -23,11 +23,12 @@ h2{
     display: flex; /* Coloca lado a lado */
     align-items: flex-start; /*alinha pelo topo*/
     margin-bottom: 20px; /* Espaço entre formações */
+    gap: 15px; /*espaco entre ano e texto*/
 }
 
 .ano {
     width: 50px; /* Largura fixa para alinhar */
-    min-width: 20px; /*alinhamento fixo*/
+    min-width: 70px; /*alinhamento fixo*/
     font-weight: bold; /* Ano em negrito */
     margin-top: 6px; /*muda a altura*/
 }
